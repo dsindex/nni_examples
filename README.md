@@ -2,11 +2,13 @@
 
 - reference code for nni
   - https://github.com/microsoft/nni
-  - https://github.com/microsoft/nni/tree/master/examples/trials/mnist-pytorch
-  - https://github.com/microsoft/nni/blob/master/docs/en_US/Tutorial/Nnictl.md
-  - https://github.com/microsoft/nni/blob/master/examples/trials/mnist-pytorch/mnist.py
+  - nnictl : https://github.com/microsoft/nni/blob/master/docs/en_US/Tutorial/Nnictl.md
+  - config.yml : https://github.com/microsoft/nni/blob/master/docs/en_US/Tutorial/ExperimentConfig.md#logdir
+  - mnist pytorch example
+    - https://github.com/microsoft/nni/tree/master/examples/trials/mnist-pytorch
+    - https://github.com/microsoft/nni/blob/master/examples/trials/mnist-pytorch/mnist.py
 
-- basic examples
+- usage
 ```
 $ nnictl create --config config.yml --port 9599 --foreground
 
