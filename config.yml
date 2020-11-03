@@ -19,4 +19,4 @@ trial:
   command: python mnist.py
   codeDir: .
   gpuNum: 2
-logDir: ./nni-experiments
+logDir: .
