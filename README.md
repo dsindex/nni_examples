@@ -11,7 +11,7 @@
 
 - usage
 ```
-$ nnictl create --config config.yml --port 9599 --foreground
+$ nnictl create --config config.yml --port 22968 --foreground
 
 $ nnictl trial ls
 
